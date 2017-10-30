@@ -1,3 +1,9 @@
+/*
+        Author: SpringHack - springhack@live.cn
+        Last modified: 2017-10-31 02:19:32
+        Filename: user/user_config.h
+        Description: Created by SpringHack using vim automatically.
+ */
 #ifndef _USER_CONFIG_
 #define _USER_CONFIG_
 
@@ -6,11 +12,11 @@ typedef enum {SIG_DO_NOTHING=0, SIG_START_SERVER=1, SIG_SEND_DATA, SIG_UART0, SI
 #define LOCAL_ACCESS 0x01
 #define REMOTE_ACCESS 0x02
 
-#define WIFI_SSID            "ssid"
-#define WIFI_PASSWORD        "password"
+#define WIFI_SSID            "SpringHack"
+#define WIFI_PASSWORD        "11060067"
 
-#define WIFI_AP_SSID         "MyAP"
-#define WIFI_AP_PASSWORD     "none"
+#define WIFI_AP_SSID         "Alxw"
+#define WIFI_AP_PASSWORD     "11060067"
 
 //
 // Define this to support WPA2 PEAP authentication (experimental)
@@ -107,7 +113,7 @@ typedef enum {SIG_DO_NOTHING=0, SIG_START_SERVER=1, SIG_SEND_DATA, SIG_UART0, SI
 //#define PROTOCOL_NAMEv311     /*MQTT version 3.11 compatible with https://eclipse.org/paho/clients/testing/*/
 
 #define MQTT_PREFIX "/WiFi"
-#define MQTT_ID "ESPRouter"
+#define MQTT_ID "AlxwRouter"
 #define MQTT_REPORT_INTERVAL 15 /*seconds*/
 
 // Define this if you want to get messages about GPIO pin status changes
